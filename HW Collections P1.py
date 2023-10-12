@@ -29,3 +29,4 @@ https://mooc.nspu.ru/pluginfile.php/33768/mod_resource/content/0/%D0%9F%D1%80%D0
 # 6. Найти дубликаты в списке кличек и удалить их из списка, оставив один экземпляр клички дубликатов.
 Это можно сделать путём преобразования списка во множество (set, иногда ещё его называют «набор»), а затем обратно в список:
 https://skillbox.ru/media/code/spiski_v_python_11_voprosov_kotorye_mogut_zadat_na_sobesedovanii/
+https://dzen.ru/video/watch/6011bef4814bd370b67ff17a?utm_referer=dzen.ru
