@@ -15,3 +15,10 @@ def get_numb():
 #     last = get_last_name()
 #     numb=get_numb()
  # return f"{first} {'_'} {numb} {last}"
+
+
+def get_petname():
+    name_Sharik=['Sharik']
+    petnames=['Spike', 'Barboss', 'Bloom', 'Kashtan']
+    return random.choice(petnames)
+    
