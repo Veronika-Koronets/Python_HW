@@ -1,8 +1,8 @@
 # 1. Сгенерировать список из 500 Emails где каждый email заканчивается на @gmail.com текст
 # до @gmail.com - символы (Латиница, цифры, _ . ) [user_29@gmail.com, alex.braun@gmail.com, …]
-
+# как сделать, чтобы цифры были в рандомном порядке
 import mymodyle
-for i in range(1,51):
+for i in range(1,501):
     nn1 = mymodyle.get_first_name()
     nn2 = mymodyle.get_last_name()
     numb=mymodyle.get_numb()
@@ -11,10 +11,22 @@ for i in range(1,51):
     print(i, result)
 # print(type(numb2))
 # return f"{first} {'_'} {numb} {last}"
+2) 
+import mymodyle
+for i in range(1,501):
+    nn1 = mymodyle.get_first_name()
+    nn2 = mymodyle.get_last_name()
+    numb=mymodyle.get_numb()
+    numb2=str(numb)
+    result1= nn1+'_'+nn2 +numb2
+    result2=random.shuffle(result)
+    print(i, result2)
+    result= result2+'@gmail.com'
+    print(i, result)
 
 
 # 2. Преобразовать список Emails в Dict где ключ - это index элемента в списке
-
+emsils_dict=dict.fromkeys(result)
 # 3. Создать список Name_Surname из 100 элементов, где каждое 10 имя “Adam”
 # [“Adam_black”, “Olga_Savitskaya, …]
 # 4. Создать список списков в котором будут пары
