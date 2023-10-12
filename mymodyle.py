@@ -17,7 +17,7 @@ def get_numb():
  # return f"{first} {'_'} {numb} {last}"
 
 
-def get_petname():
+def get_petnames():
     name_Sharik=['Sharik']
     petnames=['Spike', 'Barboss', 'Bloom', 'Kashtan']
     return random.choice(petnames)
