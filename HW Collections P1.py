@@ -33,9 +33,20 @@ for i in range(1,101):
     random.shuffle(result)
     print(i, result)
 
+2)
+import random
+name_Sharik=['Sharik']
+petnames=['Spike', 'Barboss', 'Bloom', 'Kashtan']
+result_names=[name_Sharik]*10+random.choice(petnames)
+ random.shuffle(result_names)
+print(i, result_names)
+
     
 https://mooc.nspu.ru/pluginfile.php/33768/mod_resource/content/0/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87.pdf
 # 6. Найти дубликаты в списке кличек и удалить их из списка, оставив один экземпляр клички дубликатов.
+print(i, result)
+result=list(set(result))
+
 Это можно сделать путём преобразования списка во множество (set, иногда ещё его называют «набор»), а затем обратно в список:
 https://skillbox.ru/media/code/spiski_v_python_11_voprosov_kotorye_mogut_zadat_na_sobesedovanii/
 https://dzen.ru/video/watch/6011bef4814bd370b67ff17a?utm_referer=dzen.ru
