@@ -25,6 +25,15 @@ for i in range(1,51):
 #
 # 5. Сгенерировать список из 100 кличек для животных , в списке должно быть 10 одинаковых кличек
 # [“Spike”, “Barboss”, “Bloom”, “Spike”, …]
+import mymodyle
+for i in range(1,101):
+    petname=mymodule.get_petname
+    name_Sharik=['Sharik']
+    result= petname +  name_Sharik*10
+    random.shuffle(result)
+    print(i, result)
+
+    
 https://mooc.nspu.ru/pluginfile.php/33768/mod_resource/content/0/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87.pdf
 # 6. Найти дубликаты в списке кличек и удалить их из списка, оставив один экземпляр клички дубликатов.
 Это можно сделать путём преобразования списка во множество (set, иногда ещё его называют «набор»), а затем обратно в список:
